@@ -15,21 +15,21 @@ const projects = [
     name: "SBC School",
     description: "Curso de Tecnologia para Pessoas de Negócios.",
     subDescription: "Criar autonomia e confiança nos Product Managers para melhores conversas técnicas",
-    link: "https://sbcschool.com.br"
+    link: "https://sbcschool.com.br?ref=tiktok_bio"
   },
   {
     icon: "/curio.png",
     name: "Curiô",
     description: "Plataforma para Criadores de Conteúdo",
     subDescription: "Venda cursos online e tenha acesso a melhores dados dos seus usuários, custando uma fração das grandes plataformas",
-    link: "https://curso-sbc.vercel.app"
+    link: "https://curso-sbc.vercel.app?ref=tiktok_bio"
   },
   {
     icon: "/habits.png",
     name: "Habits-Two",
     description: "Visualize seus hábitos como nunca",
     subDescription: "Acompanhe hábitos, veja seu progresso e dos seus amigos",
-    link: "https://habit-two.vercel.app"
+    link: "https://habit-two.vercel.app?ref=tiktok_bio"
   }
 ]
 
@@ -38,15 +38,14 @@ const courses = [
     icon: "/logo-sbc.png",
     name: "Tech for Business People",
     description: "Não ensinamos a programar, e sim 10 temas importantes para um PM ou pessoas de negócios entender sobre tecnologia.",
-    link: "sbcschool.com.br/technical-product-manager",
-    // price: "R$1.997"
+    link: "sbcschool.com.br/technical-product-manager?ref=tiktok_bio",
     available: true
   },
   {
     icon: "/logo-sbc.png",
     name: "Pense, crie e venda produtos digitais do zero",
     description: "Mesmo que não saiba nada sobre programação, você pode criar e vender produtos digitais.",
-    link: "www.sbcschool.com.br/como-criar-produtos-do-zero-sem-sorte",
+    link: "www.sbcschool.com.br/como-criar-produtos-do-zero-sem-sorte?ref=tiktok_bio",
     waitlist: true
   },
 ]
@@ -56,67 +55,67 @@ const tools = [
     icon: "https://cursor.sh/favicon.ico",
     name: "Cursor",
     description: "Editor de código com IA",
-    link: "https://cursor.sh/"
+    link: "https://cursor.sh/?ref=tiktok_bio"
   },
   {
     icon: "https://v0.dev/favicon.ico",
     name: "v0.dev",
     description: "Gerador de componentes UI com IA da Vercel",
-    link: "https://v0.dev/"
+    link: "https://v0.dev/?ref=tiktok_bio"
   },
   {
     icon: "https://lovable.dev/favicon.ico",
     name: "Lovable.io",
     description: "Da ideia ao app",
-    link: "https://lovable.dev/"
+    link: "https://lovable.dev/?ref=tiktok_bio"
   },
   {
     icon: "https://www.gstatic.com/devrel-devsite/prod/v2210075187f059b839246c2c03840474501c3c6024a99fb78f6293c1b4c0f664/cloud/images/favicon.png",
     name: "Google Cloud Console",
     description: "Plataforma de infraestrutura na nuvem",
-    link: "https://console.cloud.google.com/"
+    link: "https://console.cloud.google.com/?ref=tiktok_bio"
   },
   {
     icon: "https://bolt.new/favicon.ico",
     name: "Bolt.new",
     description: "Crie e compartilhe snippets de código instantaneamente",
-    link: "https://bolt.new/"
+    link: "https://bolt.new/?ref=tiktok_bio"
   },
   {
     icon: "https://excalidraw.com/favicon.ico",
     name: "Excalidraw",
     description: "Quadro virtual para fazer diagramas",
-    link: "https://excalidraw.com/"
+    link: "https://excalidraw.com/?ref=tiktok_bio"
   },
   {
     icon: "https://railway.app/favicon.ico",
     name: "Railway",
     description: "Plataforma moderna para deploy de apps",
-    link: "https://railway.app/"
+    link: "https://railway.app/?ref=tiktok_bio"
   },
   {
     icon: "https://github.com/favicon.ico",
     name: "GitHub",
     description: "Plataforma para hospedar e colaborar em código",
-    link: "https://github.com/"
+    link: "https://github.com/?ref=tiktok_bio"
   },
   {
     icon: "https://www.perplexity.ai/favicon.ico",
     name: "Perplexity",
     description: "Mecanismo de busca com IA",
-    link: "https://www.perplexity.ai/"
+    link: "https://www.perplexity.ai/?ref=tiktok_bio"
   },
   {
     icon: "https://chat.openai.com/favicon.ico",
     name: "ChatGPT",
     description: "Modelo avançado de linguagem da OpenAI",
-    link: "https://chat.openai.com/"
+    link: "https://chat.openai.com/?ref=tiktok_bio"
   },
   {
     icon: "https://vercel.com/favicon.ico",
     name: "Vercel",
     description: "Plataforma para deploy de frontend",
-    link: "https://vercel.com/"
+    link: "https://vercel.com/?ref=tiktok_bio"
   },
 ]
 
