@@ -30,10 +30,27 @@ const projects = [
     description: "Visualize seus hábitos como nunca",
     subDescription: "Acompanhe hábitos, veja seu progresso e dos seus amigos",
     link: "https://habit-two.vercel.app?ref=tiktok_bio"
-  }
+  },
+ 
 ]
 
 const courses = [
+  {
+    icon: "/codando.png",
+    name: "Guia Prático para Entrevistas com Usuários",
+    description: "Como fazer boas perguntas e entender o que o usuário quer.",
+    subDescription: "Um guia completo com as melhores práticas para otimizar seu tempo",
+    link: "/entrevista.pdf",
+    isPdf: true
+  },
+  {
+    icon: "/codando.png",
+    name: "O básico para começar a distribuir produtos digitais",
+    description: "Não adianta só criar produtos, você precisa saber como distribuir.",
+    subDescription: "Aprenda o passo a passo para criar produtos digitais lucrativos",
+    link: "/marketing.pdf",
+    isPdf: true
+  },
   {
     icon: "/logo-sbc.png",
     name: "Tech for Business People",
@@ -48,6 +65,7 @@ const courses = [
     link: "www.sbcschool.com.br/como-criar-produtos-do-zero-sem-sorte?ref=tiktok_bio",
     waitlist: true
   },
+
 ]
 
 const tools = [
@@ -215,7 +233,7 @@ export default function Page() {
             <div className="grid grid-cols-3 gap-4">
               {[
                 { id: 'apps', text: 'Meus apps/produtos', icon: '🚀' },
-                { id: 'courses', text: 'Cursos', icon: '📚' },
+                { id: 'courses', text: 'Cursos/Ebooks', icon: '📚' },
                 { id: 'tools', text: 'Ferramentas dos Vídeos', icon: '🛠' }
               ].map(({ id, text, icon }) => (
                 <button

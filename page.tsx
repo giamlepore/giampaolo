@@ -176,7 +176,7 @@ export default function Page() {
             <div className="grid grid-cols-3 gap-4">
               {[
                 { id: 'apps', text: 'Meus apps/produtos' },
-                { id: 'courses', text: 'Cursos' },
+                { id: 'courses', text: '' },
                 { id: 'tools', text: 'Ferramentas dos Vídeos' }
               ].map(({ id, text }) => (
                 <button

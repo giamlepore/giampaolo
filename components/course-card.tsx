@@ -8,6 +8,7 @@ interface CourseCardProps {
   price?: string
   waitlist?: boolean
   available?: boolean
+  isPdf?: boolean
 }
 
 export function CourseCard({
@@ -18,10 +19,22 @@ export function CourseCard({
   price,
   waitlist = false,
   available = false,
+  isPdf = false,
 }: CourseCardProps) {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (isPdf) {
+      e.preventDefault()
+      const anchor = document.createElement('a')
+      anchor.href = link
+      anchor.download = name + '.pdf'
+      anchor.click()
+    }
+  }
+
   return (
     <Link
       href={link}
+      onClick={handleClick}
       className="block p-8 bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-shadow"
     >
       <div className="flex items-start justify-between gap-2">
@@ -40,6 +53,11 @@ export function CourseCard({
                 {available && (
                   <span className="px-2 py-1 text-xs bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-100 rounded">
                     Disponível
+                  </span>
+                )}
+                {isPdf && (
+                  <span className="px-2 py-1 text-xs bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300 rounded">
+                    PDF
                   </span>
                 )}
                 <h3 className="font-semibold dark:text-white mt-1">{name}</h3>
