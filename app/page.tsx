@@ -232,7 +232,7 @@ export default function Page() {
             </div>
             <div className="flex flex-col items-center lg:items-start gap-4 mb-8">
               <a 
-                href="https://youtu.be/v3v9hqsJMbQ?si=FI0OzX25a4Xo21co"
+                href="https://youtu.be/v3v9hqsJMbQ?si=cAjHg9NdrtWoVm3d"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full max-w-md hover:opacity-95 transition-opacity"
@@ -244,7 +244,7 @@ export default function Page() {
                 />
               </a>
               <a 
-                href="https://youtu.be/v3v9hqsJMbQ?si=FI0OzX25a4Xo21co"
+                href="https://youtu.be/v3v9hqsJMbQ?si=cAjHg9NdrtWoVm3d"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
