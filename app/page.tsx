@@ -230,6 +230,28 @@ export default function Page() {
                 <Instagram className="w-6 h-6" />
               </a>
             </div>
+            <div className="mt-8 mb-4">
+                <a 
+                  href="https://www.sbcschool.com.br/criar-produtos-digitais-sem-sorte/?ref=tiktok_bio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full max-w-md hover:opacity-95 transition-opacity"
+                >
+                  <div className="relative">
+                    <img 
+                      src="/banner.png" 
+                      alt="Banner do curso" 
+                      className="w-full rounded-lg shadow-md"
+                    />
+                    <div className="absolute bottom-3 right-3 bg-blue-600 text-gray-100 font-bold px-3 py-1 rounded-full text-sm font-bold shadow-lg">
+                      R$28/mês
+                    </div>
+                    <div className="absolute bottom-3 left-3 px-2 py-1 text-xs bg-yellow-100 text-yellow-800 dark:bg-yellow-700 dark:text-yellow-100 rounded">
+                      Lista de espera
+                    </div>
+                  </div>
+                </a>
+              </div>
             <div className="flex flex-col items-center lg:items-start gap-4 mb-8">
               <a 
                 href="https://youtu.be/v3v9hqsJMbQ?si=cAjHg9NdrtWoVm3d"
@@ -252,6 +274,7 @@ export default function Page() {
                 <Youtube className="w-5 h-5" />
                 Assista agora
               </a>
+       
             </div>
             <div className="grid grid-cols-3 gap-4">
               {[
