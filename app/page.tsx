@@ -222,7 +222,7 @@ export default function Page() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a 
-                href="https://www.instagram.com/giampaolo.tech/profilecard/?igsh=MXVvY2gwODhldG1qaQ==" 
+                href="https://www.instagram.com/ogiampaolo" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
