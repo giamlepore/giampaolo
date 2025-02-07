@@ -158,7 +158,7 @@ export default function ProfilePage() {
 
           <Card className="p-6 sm:p-8 bg-emerald-700 text-white text-center">
             <p className="text-base sm:text-lg">
-              Clique e conheça nossa curadoria premium de ferramentas, escolhidas a dedo pelo próprio Giampaolo
+              Ferramentas escolhidas e testadas múltiplas vezes pelo próprio Giampaolo
             </p>
           </Card>
         </div>
