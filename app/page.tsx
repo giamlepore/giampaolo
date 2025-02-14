@@ -52,7 +52,7 @@ export default function ProfilePage() {
             </Card>
           </a>
 
-          <a href="https://youtube.com/@CodandoSemCodar?sub_confirmation=1" className="block">
+          <a href="https://youtube.com/@ogiampaolo?sub_confirmation=1" className="block">
             <Card className="aspect-square p-4 sm:p-6 bg-red-50/50 hover:bg-red-50 transition-colors">
               <div className="flex flex-col h-full">
                 <div className="bg-red-500 rounded-lg p-1.5 w-fit mb-2 sm:mb-4">
