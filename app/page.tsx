@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card" 
 import Image from "next/image"
-import { Youtube, Newspaper } from "lucide-react"
+import { Youtube, Newspaper, Instagram } from "lucide-react"
 import { TypewriterText } from "@/components/TypeWriterText"
 
 export default function ProfilePage() {
@@ -10,7 +10,7 @@ export default function ProfilePage() {
       {/* Profile Section */}
       <div className="flex flex-col items-start space-y-4">
         <Image
-          src="/eu.jpeg"
+          src="/eu2.png"
           alt="Profile picture"
           width={120}
           height={120}
@@ -30,11 +30,17 @@ export default function ProfilePage() {
           <a href="https://codandosemcodar.com.br" className="block">
             <Card className="aspect-square p-4 sm:p-6 bg-red-50/50 hover:bg-red-50 transition-colors">
               <div className="flex flex-col h-full">
-                <div className="bg-orange-500 rounded-lg p-1.5 w-fit mb-2 sm:mb-4">
-                  <Newspaper className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                <div className="bg-gray-700 rounded-full p-1 w-fit mb-2 sm:mb-4">
+                  <Image 
+                    src="/logo-csc.png"
+                    alt="Logo CSC"
+                    width={30}
+                    height={30}
+                    className="text-white"
+                  />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-xs sm:text-sm font-bold mb-1">Conheça meu curso:</h3>
+                  <h3 className="text-xs sm:text-sm font-bold mb-1">Conheça minha comunidade:</h3>
                   <TypewriterText 
                     texts={[
                       "Crie apps com IA",
@@ -63,6 +69,23 @@ export default function ProfilePage() {
                   <p className="text-[11px] sm:text-xs text-gray-500 mb-1">Conteúdo longo em breve, já se inscreve.</p>
                   <Button className="mt-1 sm:mt-2 bg-red-500 hover:bg-red-600 text-white text-[10px] sm:text-xs px-2 sm:px-3 py-0.5 h-auto">
                     Inscrever
+                  </Button>
+                </div>
+              </div>
+            </Card>
+          </a>
+
+          <a href="https://instagram.com/codandosemcodar" className="block">
+            <Card className="aspect-square p-4 sm:p-6 bg-red-50/50 hover:bg-red-50 transition-colors">
+              <div className="flex flex-col h-full">
+                <div className="bg-pink-500 rounded-lg p-1.5 w-fit mb-2 sm:mb-4">
+                  <Instagram className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+                </div>
+                <div className="flex-grow">
+                  <h3 className="text-xs sm:text-sm font-medium mb-1">Instagram (bastidores)</h3>
+                  <p className="text-[11px] sm:text-xs text-gray-500 mb-1">Tudo que acontece por trás da telas.</p>
+                  <Button className="mt-1 sm:mt-2 bg-pink-500 hover:bg-pink-600 text-white text-[10px] sm:text-xs px-2 sm:px-3 py-0.5 h-auto">
+                    Seguir
                   </Button>
                 </div>
               </div>
