@@ -10,7 +10,7 @@ export default function ProfilePage() {
       {/* Profile Section */}
       <div className="flex flex-col items-start space-y-4">
         <Image
-          src="/eu2.png"
+          src="/eu.jpeg"
           alt="Profile picture"
           width={120}
           height={120}
