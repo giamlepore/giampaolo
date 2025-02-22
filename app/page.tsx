@@ -34,13 +34,13 @@ export default function ProfilePage() {
                   <Image 
                     src="/logo-csc.png"
                     alt="Logo CSC"
-                    width={30}
-                    height={30}
+                    width={20}
+                    height={20}
                     className="text-white"
                   />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-xs sm:text-sm font-bold mb-1">Conheça minha comunidade:</h3>
+                  <h3 className="text-xs sm:text-sm font-bold mb-1">Conheça minha comunidade + curso:</h3>
                   <TypewriterText 
                     texts={[
                       "Crie apps com IA",
