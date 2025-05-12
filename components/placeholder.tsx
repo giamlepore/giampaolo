@@ -206,7 +206,7 @@ export default function Page() {
                 <Twitter className="w-6 h-6" />
               </a> */}
               <a 
-                href="https://www.youtube.com/@OGiampaolo" 
+                href="https://www.youtube.com/@codandosemcodar" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
@@ -222,7 +222,7 @@ export default function Page() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a 
-                href="https://www.instagram.com/ogiampaolo" 
+                href="https://www.instagram.com/codandosemcodar" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
