@@ -27,7 +27,7 @@ export default function ProfilePage() {
       <div className="space-y-4">
         <h2 className="text-lg font-semibold">Conteúdos</h2>
         <div className="grid grid-cols-2 gap-4">
-          <a href="https://codandosemcodar.com.br" className="block">
+          <a href="https://codandosemcodar.com.br/?utm_campaign=tiktok_bio_perfil" className="block">
             <Card className="aspect-square p-4 sm:p-6 bg-red-50/50 hover:bg-red-50 transition-colors">
               <div className="flex flex-col h-full">
                 <div className="bg-gray-700 rounded-full p-1 w-fit mb-2 sm:mb-4">
@@ -43,6 +43,7 @@ export default function ProfilePage() {
                   <h3 className="text-xs sm:text-sm font-bold mb-1">Conheça minha comunidade + curso:</h3>
                   <TypewriterText 
                     texts={[
+                      "+160 alunos",
                       "Crie apps com IA",
                       "Crie novas fontes de renda",
                       "Sua ideia em realidade"
@@ -66,7 +67,7 @@ export default function ProfilePage() {
                 </div>
                 <div className="flex-grow">
                   <h3 className="text-xs sm:text-sm font-medium mb-1">Canal do Youtube</h3>
-                  <p className="text-[11px] sm:text-xs text-gray-500 mb-1">Conteúdo longo em breve, já se inscreve.</p>
+                  <p className="text-[11px] sm:text-xs text-gray-500 mb-1">Conteúdo longo, já se inscreve.</p>
                   <Button className="mt-1 sm:mt-2 bg-red-500 hover:bg-red-600 text-white text-[10px] sm:text-xs px-2 sm:px-3 py-0.5 h-auto">
                     Inscrever
                   </Button>
@@ -98,7 +99,7 @@ export default function ProfilePage() {
       <div className="space-y-4">
         <h2 className="text-lg font-semibold">Meu site</h2>
         <div className="grid grid-cols-1 gap-4">
-          <a href="https://codandosemcodar.com.br" className="block">
+          <a href="https://codandosemcodar.com.br/?utm_campaign=tiktok_bio_perfil" className="block">
             <Card className="p-4 sm:p-6 bg-blue-50/50 hover:bg-blue-50 transition-colors">
               <div className="flex flex-col h-full">
                 <div className="bg-blue-500 rounded-lg p-1.5 w-fit mb-2 sm:mb-4">
